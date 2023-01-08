@@ -26,6 +26,6 @@ set(LAB2
 set(LAB3
         lab3/fibonacci.h lab3/fibonacci.cpp)
 
-add_executable(lab1 lab1/lab1.cpp ${LAB1} ${HELPERS})
-add_executable(lab2 lab2/lab2.cpp ${LAB2} ${HELPERS})
-add_executable(lab3 lab3/lab3.cpp ${LAB3} ${HELPERS})
+add_executable(lab_1 lab1/lab1.cpp ${LAB1} ${HELPERS})
+add_executable(lab_2 lab2/lab2.cpp ${LAB2} ${HELPERS})
+add_executable(lab_3 lab3/lab3.cpp ${LAB3} ${HELPERS})
